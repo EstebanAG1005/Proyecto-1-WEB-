@@ -1,0 +1,36 @@
+{
+  "name": "proyecto-1-web-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebanAG1005/Proyecto-1-WEB-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstebanAG1005/Proyecto-1-WEB-/issues"
+  },
+  "homepage": "https://github.com/EstebanAG1005/Proyecto-1-WEB-#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/plugin-transform-regenerator": "^7.17.9",
+    "@babel/plugin-transform-runtime": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-react": "^7.17.12",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/react": "^11.9.0",
+    "babel-loader": "^8.2.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
