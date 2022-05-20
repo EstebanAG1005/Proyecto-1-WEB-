@@ -24,6 +24,10 @@ export default {
                 test: /\.(png|jpg|gif|svg|mp3)$/,
                 use: [{loader: 'file-loader'}]
             },
+            {
+                test: /\.mp4$/,
+                use: 'file-loader?name=videos/[name].[ext]',
+            },
         ],
     
     },
