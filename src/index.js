@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Pagina from './components/Pagina.jsx';
+import {Pagina} from './components/Pagina.jsx';
 
 const App = () => {
     return(        
