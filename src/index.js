@@ -1,5 +1,5 @@
 import React from 'react';
-import * as ReactDOMClient from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import Pagina from './components/Pagina.jsx';
 
 const App = () => {
@@ -9,5 +9,5 @@ const App = () => {
 }
 
 const container = document.getElementById('app');
-const root = ReactDOMClient.createRoot(container);
-root.render(<App tab="home"/>);
+const root = createRoot(container);
+root.render(<App tab="home" />);
