@@ -7,13 +7,14 @@ const Pagina = () => {
 
     return(
         <div>
+            <h1 className='LION'>LION</h1>
             <img className='OvejaMain' src={Oveja} alt="Oveja" />;
 
             <video autoPlay loop muted className='VideoFondo'>
                     <source src={Video} type="video/mp4"/>
             </video>
 
-            <button class="px-4 py-2 font-bold text-white border border-white rounded-none hover:bg-white hover:text-black">Listen Now</button>
+            <button class="ListenNow">Listen Now</button>
             
         </div>
         
