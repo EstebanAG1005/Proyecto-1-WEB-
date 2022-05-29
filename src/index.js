@@ -1,12 +1,7 @@
-import React from 'react';
 import { createRoot } from 'react-dom/client';
-import {Pagina} from './components/Pagina.jsx';
-
-const App = () => {
-    return(        
-        <Pagina title="Pagina"/>                     
-    )
-}
+import './index.css';
+// eslint-disable-next-line import/extensions
+import App from './App.js';
 
 const container = document.getElementById('app');
 const root = createRoot(container);
