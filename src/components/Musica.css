@@ -4,14 +4,191 @@
     font-weight: 700;
     font-size: 1.25rem !important;
     line-height: 1.75rem !important;
-    top: 87%;
-    left: 26%;
+    font-weight: 700;
+    top: 86%;
+    left: 26.4%;
 
 }
 
-.Linea {
+.View::before {
+    position: absolute;
     color: black;
-    background-color: black;
-    height: 2;
+    font-weight: 700;
+    font-size: 1rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 400 !important;
+    top: 86%;
+    left: 66.5%;
+    content: "View More Music"
+}
 
+.View:hover:before {
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem !important;
+    line-height: 1.75rem !important;
+    font-weight: 400 !important;
+    top: 86%;
+    left: 66.5%;
+    content: "View More Music ->"
+}
+
+.Oveja2 {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25.3%;
+    height: 50%;
+    top: 92.5%;
+    left: 26.4%;
+
+
+}
+
+.Lint {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 20%;
+    top: 92.5%;
+    left: 52.6%;
+
+}
+
+.Garden {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 20%;
+    top: 92.5%;
+    left: 63.5%;
+
+}
+
+.Blue {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 20%;
+    top: 120%;
+    left: 52.6%;
+}
+
+.Red {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 20%;
+    top: 120%;
+    left: 63.5%;
+}
+
+.OvejaL {
+    position: absolute;
+    color: black;
+    font-weight: 400 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.75rem !important;
+    top: 143%;
+    left: 26.3%;
+}
+
+.LION2 {
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem !important;
+    line-height: 1.75rem !important;
+    top: 145%;
+    left: 26.3%;
+}
+
+.Album {
+    position: absolute;
+    color: black;
+    font-weight: 400 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.75rem !important;
+    top: 112%;
+    left: 52.6%;
+}
+
+.OLD {
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem !important;
+    line-height: 1.75rem !important;
+    top: 114%;
+    left: 52.6%;
+}
+
+.Album2 {
+    position: absolute;
+    color: black;
+    font-weight: 400 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.75rem !important;
+    top: 112%;
+    left: 63.5%;
+}
+
+.Grave {
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem !important;
+    line-height: 1.75rem !important;
+    top: 114%;
+    left: 63.5%;
+}
+
+.Album3 {
+    position: absolute;
+    color: black;
+    font-weight: 400 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.75rem !important;
+    top: 140%;
+    left: 52.6%;
+}
+
+.At {
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem !important;
+    line-height: 1.75rem !important;
+    top: 142%;
+    left: 52.6%;
+}
+
+.Album4 {
+    position: absolute;
+    color: black;
+    font-weight: 400 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.75rem !important;
+    top: 140%;
+    left: 63.5%;
+}
+
+.Ha {
+    position: absolute;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem !important;
+    line-height: 1.75rem !important;
+    top: 142%;
+    left: 63.5%;
 }
