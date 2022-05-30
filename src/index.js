@@ -1,4 +1,4 @@
-import { createRoot } from 'react-dom/client';
+import React, { createRoot } from 'react-dom/client';
 import './index.css';
 // eslint-disable-next-line import/extensions
 import App from './App.js';

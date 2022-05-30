@@ -10,7 +10,7 @@
 
 }
 
-.View::before {
+.View {
     position: absolute;
     color: black;
     font-weight: 700;
@@ -22,7 +22,7 @@
     content: "View More Music"
 }
 
-.View:hover:before {
+.View:hover {
     position: absolute;
     color: black;
     font-weight: 700;
