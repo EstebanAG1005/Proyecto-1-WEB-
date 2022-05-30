@@ -11,6 +11,8 @@ const Footer = () => {
             <img className='Logo' src={Logo} alt="Logo" />
             <button className='About1' >ABOUT</button>
             <button className='BOOKING' >BOOKING</button>
+            <h2 className='Copy'>© 2022 Elevation Worship • All right reserved •</h2>
+            <button className='policy' >Privacy Policy</button>
             
         </div>
         

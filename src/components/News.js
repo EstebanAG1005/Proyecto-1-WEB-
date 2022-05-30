@@ -35,7 +35,7 @@ const News = () => {
                 className='EM'
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                placeholder="Email address"
+                placeholder="Enter your email address"
                 type="email"
                 name="email"
                 required

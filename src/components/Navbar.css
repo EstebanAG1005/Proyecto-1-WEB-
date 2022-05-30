@@ -56,13 +56,12 @@
     background-color: white;
 }
 
-.header.active .nav-item {
+.header.active .nav-item a {
     color: lightgray;
-    position: relative;
-    left: 165%;
-    padding: 1rem;
-    font-weight: 700;
-    font-size: medium;
+}
+
+.header.active .nav-item a:hover {
+    color: black;
 }
 
 .header.active .nav-item1 {
