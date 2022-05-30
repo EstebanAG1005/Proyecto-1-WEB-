@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Oveja from '../../public/Img/Oveja.jpg'
 
 import './News.css'
 
