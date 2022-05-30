@@ -91,3 +91,63 @@
     color: black;
     border-bottom: 2px solid black;
 }
+
+.tunes {
+    position: absolute;
+    top: 48.5%;
+    left: 41.5%;
+}
+
+.tunes:hover {
+    color: #FC2940;
+}
+
+.Spotify {
+    position: absolute;
+    top: 48.5%;
+    left: 44.2%;
+}
+
+.Spotify:hover {
+    color: #1ED760;
+}
+
+.Youtube {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+}
+
+.Youtube:hover {
+    color: #F70000;
+}
+
+.Amazon {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+}
+
+.Amazon:hover {
+    color: #F7960A;
+}
+
+.Insta {
+    position: absolute;
+    top: 48%;
+    left: 54%;
+}
+
+.Insta:hover {
+    color: #EF6285;
+}
+
+.Ora {
+    position: absolute;
+    top: 48%;
+    left: 56.7%;
+}
+
+.Ora:hover {
+    color: #FF671E;
+}
