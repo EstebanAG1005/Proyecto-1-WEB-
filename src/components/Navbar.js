@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import logo from '../../public/Img/Oveja.jpg'
+import {Link} from 'react-scroll'
+
 
 import './Navbar.css'
 
@@ -10,24 +11,33 @@ const Navbar = () => {
 
     const closeMenu = () => setClick(false)
 
+    const [navbar, SetNavbar] = useState(false)
+
+    const ChangeColor = () => {
+        if (window.scrollY >= 80) {
+            SetNavbar(true)
+        } else {
+            SetNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', ChangeColor)
+
     return (
-        <div className='header'>
+        <div className={navbar ? 'header active' : 'header'}>
             <nav className='navbar'>
-                <a href='/' className='logo'>
-                    <img src={logo} alt='logo' />
-                </a>
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
-                    <li className='nav-item'>
-                        <a href='#Home' onClick={closeMenu}>Music</a>
+                <ul className={click ? "nav-menu" : "nav-menu"}>
+                    <li className={navbar ? 'nav-item1' : 'nav-item1'}>
+                        <a href='#ELEVATION WORSHIP' onClick={closeMenu}>ELEVATION WORSHIP</a>
                     </li>
-                    <li className='nav-item'>
-                        <a href='#Resources' onClick={closeMenu}>Resources</a>
+                    <li className={navbar ? 'nav-item' : 'nav-item'}>
+                        <a href='#MUSIC' onClick={closeMenu}>MUSIC</a>
                     </li>
-                    <li className='nav-item'>
-                        <a href='Shop' onClick={closeMenu}>Shop</a>
+                    <li className={navbar ? 'nav-item' : 'nav-item'}>
+                        <a href='#RESOURCES' onClick={closeMenu}>RESOURCES</a>
                     </li>
-                    <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>Demo</a>
+                    <li className={navbar ? 'nav-item' : 'nav-item'}>
+                        <a href='#SHOP' onClick={closeMenu}>SHOP</a>
                     </li>
                 </ul>
             </nav>
