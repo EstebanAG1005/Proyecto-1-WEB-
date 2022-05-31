@@ -2,6 +2,8 @@
 
 Proyecto #1 del curso de Sistemas y Tecnologías Web (Copia de Página Web) Página Web Seleccionada : https://www.elevationworship.com/
 
+Pagina Web del Servidor de la clase para correr el proyecto https://github.com/EstebanAG1005/Proyecto-1-WEB-
+
 ## Tecnologías implementadas en el Proyecto
 
 ### React
